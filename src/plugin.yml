@@ -1,0 +1,14 @@
+name: PlayerData
+main: fr.atesab.playerdata.PluginMain
+version: 1.0
+description: Get player's Offline and Online UUID
+author: ATE47
+commands:
+  getinfo:
+    description: Get player's UUID
+    permission: playerdata.getinfo
+    usage: /getinfo [username]
+permissions:
+  playerdata.getinfo:
+    description: Get player's UUID
+    default: op
